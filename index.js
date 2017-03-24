@@ -53,6 +53,11 @@ module.exports = {
     'react/jsx-handler-names' : [2, {
       eventHandlerPrefix : 'on'
     }],
-    'react/jsx-space-before-closing' : ['error', 'always']
+    'react/jsx-space-before-closing' : ['error', 'always'],
+    'react/jsx-tag-spacing'          : ['error', {
+      closingSlash      : 'never',
+      beforeSelfClosing : 'always',
+      afterOpening      : 'never'
+    }]
   }
 };
