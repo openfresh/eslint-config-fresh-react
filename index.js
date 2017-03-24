@@ -50,7 +50,7 @@ module.exports = {
       nonEmpty    : 'tag-aligned',
       selfClosing : 'tag-aligned'
     }],
-    'react/jsx-handler-names' : [2, {
+    'react/jsx-handler-names' : ['error', {
       eventHandlerPrefix : 'on'
     }],
     'react/jsx-space-before-closing' : ['error', 'always'],
