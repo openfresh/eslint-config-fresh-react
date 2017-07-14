@@ -9,7 +9,7 @@
     "readme.md"
   ],
   "scripts": {
-    "test": "node test.js && eslint --max-warnings 0 ."
+    "test": "eslint --max-warnings 0 ."
   },
   "repository": "openfresh/eslint-config-fresh-react",
   "keywords": [
@@ -28,18 +28,18 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
-    "eslint-config-fresh": "^1.2.0",
-    "eslint-config-xo-react": "^0.12.0",
+    "eslint": "^4.2.0",
+    "eslint-config-fresh": "^2.0.0",
+    "eslint-config-xo-react": "^0.13.0",
     "eslint-config-xo-space": "^0.16.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-xo-react": "^0.12.0",
+    "eslint": "^4.2.0",
+    "eslint-config-xo-react": "^0.13.0",
     "eslint-config-xo-space": "^0.16.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
