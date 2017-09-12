@@ -27,7 +27,7 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.0",
     "eslint": "^4.3.0",
     "eslint-config-fresh": "^2.1.0",
     "eslint-config-xo-react": "^0.13.0",
