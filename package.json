@@ -27,8 +27,8 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.3.0",
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1",
     "eslint-config-fresh": "^2.1.0",
     "eslint-config-xo-react": "^0.13.0",
     "eslint-config-xo-space": "^0.16.0",
@@ -36,7 +36,7 @@
     "eslint-plugin-react": "7.3.0"
   },
   "peerDependencies": {
-    "eslint": "^4.3.0",
+    "eslint": "^4.6.1",
     "eslint-config-xo-react": "^0.13.0",
     "eslint-config-xo-space": "^0.16.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
