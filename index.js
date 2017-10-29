@@ -15,6 +15,7 @@ module.exports = {
     'react/sort-comp'              : ['error', {
       order : [
         'static',
+        'static-methods',
         'everything-else',
         'handler',
         'lifecycle',
@@ -33,6 +34,7 @@ module.exports = {
           '/^on.+$/'
         ],
         lifecycle : [
+          'constructor',
           'componentWillMount',
           'componentDidMount',
           'componentWillReceiveProps',
