@@ -8,11 +8,12 @@ module.exports = {
     'xo-react/space'
   ],
   rules : {
-    'react/forbid-component-props' : 'off',
-    'react/no-danger'              : 'off',
-    'react/no-string-refs'         : 'off',
-    'react/no-unescaped-entities'  : 'off',
-    'react/sort-comp'              : ['error', {
+    'react/destructuring-assignment' : 'off',
+    'react/forbid-component-props'   : 'off',
+    'react/no-danger'                : 'off',
+    'react/no-string-refs'           : 'off',
+    'react/no-unescaped-entities'    : 'off',
+    'react/sort-comp'                : ['error', {
       order : [
         'static',
         'static-methods',
