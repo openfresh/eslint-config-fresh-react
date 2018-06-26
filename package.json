@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "eslint": "^5.0.0",
+    "eslint": "^5.0.1",
     "eslint-config-fresh": "^3.0.0",
     "eslint-config-xo-react": "^0.16.0",
     "eslint-config-xo-space": "^0.19.0",
