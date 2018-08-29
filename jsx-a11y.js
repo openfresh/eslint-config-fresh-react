@@ -6,10 +6,6 @@ module.exports = {
     'plugin:jsx-a11y/recommended'
   ],
   rules : {
-    'jsx-a11y/label-has-for' : [2, {
-      required : {
-        some : ['nesting', 'id']
-      }
-    }]
+    'jsx-a11y/label-has-for' : 'off' // [Deprecated on eslint-plugin-jsx-a11y v6.1.0]
   }
 };
